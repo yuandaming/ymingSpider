@@ -6,6 +6,7 @@
 
 # QueryList  简介
 `QueryList`是一套简洁、优雅、可扩展的PHP采集工具(爬虫)，基于phpQuery。
+修改版 queryList
 
 ## 特性
 - 拥有与jQuery完全相同的CSS3 DOM选择器
