@@ -1,0 +1,11 @@
+{
+    "name": "yuandaming/jaeger",
+    "description": "jaeger",
+    "authors": [
+        {
+            "name": "yuandaming",
+            "email": "727119040@qq.com"
+        }
+    ],
+    "require": {}
+}
