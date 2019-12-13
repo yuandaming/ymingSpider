@@ -1,5 +1,6 @@
 {
     "name": "yuandaming/jaeger",
+    "homepage": "https://github.com/yuandaming/ymingSpider",
     "description": "jaeger",
     "authors": [
         {
@@ -7,5 +8,8 @@
             "email": "727119040@qq.com"
         }
     ],
-    "require": {}
+    "license": "MIT",
+    "require": {
+        "php": "^7.1.3"
+    }
 }
