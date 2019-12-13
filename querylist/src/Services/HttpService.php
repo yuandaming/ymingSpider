@@ -31,7 +31,8 @@ class HttpService
             'verify' => false
         ],$otherArgs);
         $html = GHttp::get($url,$args,$otherArgs);
-        $ql->setHtml($html);
+        $ql->setHtml($html['html']);
+        $ql->setHeader($html['head']);
         return $ql;
     }
 

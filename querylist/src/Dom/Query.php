@@ -15,6 +15,7 @@ use Closure;
 class Query
 {
     protected $html;
+    protected $head;
     protected $document;
     protected $rules;
     protected $range = null;
@@ -28,6 +29,25 @@ class Query
     public function __construct(QueryList $ql)
     {
         $this->ql = $ql;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getHeader()
+    {
+        return $this->head;
+    }
+
+    /**
+     * @param $head
+     * @param null $charset
+     * @return QueryList
+     */
+    public function setHeader($head)
+    {
+        $this->head = $head;
+        return $this->ql;
     }
 
     /**

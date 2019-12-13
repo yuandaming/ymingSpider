@@ -25,6 +25,8 @@ use QL\Services\MultiRequestService;
  *
  * @method string getHtml()
  * @method QueryList setHtml($html)
+ * @method string getHeader()
+ * @method QueryList setHeader($head)
  * @method QueryList html($html)
  * @method Dom\Elements find($selector)
  * @method QueryList rules(array $rules)
